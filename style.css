@@ -1,0 +1,48 @@
+.box1 {
+    background-color: #9CC7DC;
+    border-radius: 6px;
+    height: 95px;
+    width: 95px;
+    line-height: 95px;
+    text-align: center;
+    color: white;
+    font-size: 11px;
+    transition: 1s ease-in-out;
+}
+
+.box1:hover {
+  transform: rotate(180deg);
+}
+
+.box2{
+    background-color: #E9C4FD;
+    border-radius: 6px;
+    height: 95px;
+    width: 95px;
+    line-height: 95px;
+    text-align: center;
+    color: white;
+    font-size: 11px;
+    transition: 1s ease-in-out;
+}
+
+.box2:hover {
+  transform: translateX(-30px);
+}
+
+
+.box3 {
+    background-color: #9D61DF;
+    border-radius: 6px;
+    height: 95px;
+    width: 95px;
+    line-height: 95px;
+    text-align: center;
+    color: white;
+    font-size: 11px;
+    transition: 1s ease-in-out;
+}
+
+.box3:hover {
+  transform: scale(2, 3);
+}
